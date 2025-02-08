@@ -1,0 +1,16 @@
+# learn Git
+1 / download git /                                                                                                                                                   // لأول مرة Git إعداد  //
+-> git config --global user.name "اسمك"
+-> git config --global user.email "بريدك الإلكتروني"
+-> git config --list      (هتعرف مين سجل معاك في جيت)
+-> git init       (  جديد Git  انشاء مستودع )
+-> mkdir اسم الفلدير          (to make now tree ) 
+-> echo. > اسم_الملف.txt     (to make now blob)
+-> git status ( التحقق من حالة)  ->Untrack Files هيطلع ان الملف 
+/ to be track file / 
+-> git add اسم الملف 
+-> git commit -m "رسالة التزام توضح التغييرات"  / make change in blob / 
+-> git commit --amend -m "رسالة جديدة"            (بدلاً من إنشاء واحد جديد Commit تعديل آخر )
+-> git log   /to see History / 
+-> git log --oneline  (هي هي بس باختصار)
+
